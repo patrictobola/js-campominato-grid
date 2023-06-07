@@ -44,6 +44,7 @@ playButton.addEventListener('click', function(){
         // Al click abbiamo un toggle che mi aggiunge la classe toggle 
         cell.addEventListener('click', function(){
             cell.classList.toggle('clicked')
+            console.log(i)
         });
 
         // Metto la cella all'interno del dom 
